@@ -1,0 +1,22 @@
+*Vertices 10
+1 "jyxch"
+2 "wlbzk"
+3 "jejym"
+4 "zfvnj"
+5 "wqreq"
+6 "isvcv"
+7 "manzz"
+8 "sjpfs"
+9 "ruryg"
+10 "kkgus"
+*Arcs 
+3 8 2
+4 5 2
+5 1 2
+5 3 3
+5 8 0
+5 9 3
+6 1 1
+7 1 0
+7 5 0
+9 4 4

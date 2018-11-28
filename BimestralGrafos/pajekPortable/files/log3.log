@@ -1,0 +1,11 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+% Erdos-Renyi random network generator  
+N 1 RNDNFF [2000] (5000)
+% Saving network to file   ---    C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\teste.net
+N 1 WN "C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\teste.net" 0 (5000)

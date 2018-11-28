@@ -1,0 +1,24 @@
+NETBEGIN 1
+CLUBEGIN 1
+PERBEGIN 1
+CLSBEGIN 1
+HIEBEGIN 1
+VECBEGIN 1
+
+% Generating Complete Network...
+N 1 COMPLETEUNDIRNET (5000)
+% Erdos-Renyi random network generator  
+N 2 RNDNFS [20000] (5000)
+E 2 DRAW 0 0 0 0 0
+% Saving network to file   ---    C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\teste.net
+N 2 WN "C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\teste.net" 0 (5000)
+E 2 DRAW 0 0 0 0 0
+E 2 CIRCULAR
+E 2 RANDOMCIRCULAR
+% Reading Network   ---    C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\exemplo.net
+N 3 RDN "C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\exemplo.net" (8)
+% 3. C:\Users\Andromeda\source\repos\BimestralGrafos\BimestralGrafos\pajekBase\exemplo.net (8)
+N 3 INFONET 3 1 1 (8)
+% Generating Complete Network...
+N 4 COMPLETEUNDIRNET (5000)
+E 4 CIRCULAR
